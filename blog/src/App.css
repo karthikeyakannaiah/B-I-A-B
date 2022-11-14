@@ -1,0 +1,339 @@
+body{
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav {
+  position: sticky;
+  z-index: 1;
+  margin: 1% 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .logo{
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.nav > h3 > a{
+  text-decoration: none;
+  color: black;
+}
+.home {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 1%;
+}
+.home h1{
+  margin: 0% 4%;
+  position: relative;
+  padding: 10px;
+  text-align: end;
+}
+.home h1:nth-child(2n+1){
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: start;
+}
+.posts{
+  margin: 2%;
+}
+.post{
+  margin: 4% 4%;
+  border: 10px solid black;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.post h3{
+  font-size: 30px;
+}
+.post h5{
+  text-align: end;
+}
+.post hr{
+  height: 4px;
+  background-color: white;
+  margin: none;
+  border: none;
+}
+.post p{
+  font-size: large;
+}
+.delete-btn{
+  border: 2px solid white;
+
+}
+.message{
+  font-size: 50px;
+  margin: 4%;
+}
+.message > a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+  margin-left: 1%;
+  padding: 3px;
+}
+.about{
+  margin: 2%;
+}
+.about p{
+  font-size: 20px;
+  font-weight: 100;
+}
+.not-found{
+  font-size: 50px;
+}
+.stack {
+  list-style: none;
+}
+.stack li{
+  margin: 1% 0%;
+}
+.stack p{
+  font-size: 30px;
+}
+.stack li span{
+  padding: 5px;
+  color:white;
+  background-color: black;
+}
+.footer{
+  text-align: center;
+  font-size: smaller;
+  padding: 5px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 40%;
+}
+.form input{
+  margin: 8% 1%;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 5px solid black;
+  font-size: medium;
+}
+.log-btn{
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border: 5px solid black;
+}
+.log-btn:hover{
+  background-color: white;
+  border: 5px solid black;
+  color: black;
+  font-size: 20px;
+}
+.feed h1{
+  font-size: 50px;
+}
+.feed h1 span{
+  border-bottom: 8px solid black;
+}
+.feed h2 > a{
+  text-decoration:none;
+  color: black;
+  border-bottom: 2px solid black
+}
+.logout{
+  font-size: 40px;
+  text-align: center;
+  margin: 10% 0;
+}
+.create-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1% 4%;
+}
+.create-form input{
+  padding: 10px;
+  margin: 2% 0;
+}
+.create-form #title{
+  font-size: larger;
+  border:none;
+  border-bottom: 5px solid black;
+}
+.create-form textarea{
+  border-bottom: 10px solid black;
+  margin: 2% 0;
+  resize: vertical;
+  height: 10em;
+  font-size: larger;
+}
+.create-form h1 > a{
+  text-decoration:none;
+  color: black;
+  border-bottom: 4px solid black
+}
+.create-post{
+  font-size: larger;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 5px solid black;
+}
+.create-post:hover{
+  background-color: black;
+  color: white;
+  border: 5px solid black;
+}
+@media screen and (max-width: 900px) {
+  .feed h2{
+    font-size: medium;
+  }
+  .form{
+    margin: 5% 20%;
+  }
+  .nav{
+    flex-direction: column;
+  }
+  .post{
+    margin: 4% 1%;
+    border: 10px solid black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+  .post p{
+    font-size: 15px;
+  }
+  .post h3{
+    font-size: 20px;
+  }
+  .post h5{
+    text-align: end;
+    font-size: 10px;
+  }
+  .post hr{
+    height: 2px;
+    background-color: white;
+    margin: none;
+    border: none;
+  }
+  .nav > h3{
+    margin: 2%;
+  }
+  .about{
+    margin: 1%;
+  }
+  .about h1{
+    font-size: large;
+  }
+  .not-found{
+    margin: 4%;
+    font-size: 20px;
+  }
+  .not-found h2{
+    font-size: 20px;
+  }
+  .stack li{
+    margin: 0%;
+  }
+  .stack p{
+    font-size: 10px;
+  }
+  .message {
+    font-size: 40px;
+  }
+  .message > a{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .nav{
+    margin: 1% 4%;
+  }
+  .nav .active{
+    padding: 10px;
+  }
+  .nav .logo{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding: 50px;
+  }
+  .nav > h3{
+    font-size: 40px;
+  }
+  .home {
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+  }
+  .posts{
+    margin: 1%;
+  }
+  .post{
+    margin: 4% 4%;
+    border: 10px solid black;
+    padding: 40px;
+    background-color: black;
+    color: white;
+  }
+  .post h3{
+    font-size: 60px;
+  }
+  .post h5{
+    font-size: 40px;
+    text-align: end;
+  }
+  .post hr{
+    height: 4px;
+    background-color: white;
+    margin: none;
+    border: none;
+  }
+  .post p{
+    font-size: 50px;
+  }
+  .about{
+    margin: 4%;
+  }
+  .about h1{
+    font-size: 60px;
+  }
+  .about p{
+    font-size: 40px;
+  }
+  .not-found{
+    margin: 4%;
+    font-size: 80px;
+  }
+  .message {
+    font-size: 100px;
+  }
+  .message > a{
+    font-size: 80px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 35%;
+  }
+  .form input{
+    margin: 8% 4%;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 10px solid black;
+    font-size: 40px;
+  }
+  .form #login{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 40px;
+    border: 10px solid black;
+  }
+}
