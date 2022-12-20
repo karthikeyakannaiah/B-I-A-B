@@ -1,9 +1,9 @@
 # BRO IT'S A BLOG
-#### [Link for website](https://biab.herokuapp.com/)
+#### [Link for website](https://biab.herokuapp.com/) [Link temporarily unavailable, will resolve in future]  
 ![LANDING](landing.png)
 
 ## API Routes
-#### [Link for API](https://biab-api.herokuapp.com/)  
+#### [Link for API](https://biab-api.herokuapp.com/) [Link temporarily unavailable, will resolve in future]   
 `/users`  GET, POST  
 `/posts`   GET  
 `/posts/create-a-post`  POST  
