@@ -1,9 +1,9 @@
 # BRO IT'S A BLOG
-#### [Link for website]() [Link temporarily unavailable, will resolve in future, (heroku issue)]  
+#### [Link temporarily unavailable, will resolve in future, (heroku issue)]  
 ![LANDING](landing.png)
 
 ## API Routes
-#### [Link for API]() [Link temporarily unavailable, will resolve in future (heroku issue)]   
+#### [Link temporarily unavailable, will resolve in future (heroku issue)]   
 `/users`  GET, POST  
 `/posts`   GET  
 `/posts/create-a-post`  POST  
